@@ -7,6 +7,6 @@ class UserProfile(object):
 
 
 if __name__=="__main__":
-    x = input("Enter User Name : ")
+    #x = input("Enter User Name : ")
     obj = UserProfile()
-    print(obj.greet(x))
+    print(obj.greet("Surya"))
